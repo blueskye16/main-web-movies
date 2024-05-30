@@ -1,0 +1,43 @@
+{
+  "name": "tmdb-webmovies",
+  "version": "1.0.0",
+  "description": "movies website project",
+  "main": "index.js",
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./src/style/style.css -o ./src/style/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blueskye16/tmdb-webMovies.git"
+  },
+  "keywords": [
+    "movies",
+    "website",
+    "tmdb"
+  ],
+  "author": "vin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blueskye16/tmdb-webMovies/issues"
+  },
+  "homepage": "https://github.com/blueskye16/tmdb-webMovies#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "css-loader": "^7.1.2",
+    "html-webpack-plugin": "^5.6.0",
+    "postcss": "^8.4.38",
+    "postcss-loader": "^8.1.1",
+    "sass": "^1.77.3",
+    "sass-loader": "^14.2.1",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.3",
+    "jquery": "^3.7.1",
+    "moment": "^2.30.1"
+  }
+}
