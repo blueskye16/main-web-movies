@@ -47,6 +47,7 @@ module.exports = {
       },
       {
         test: /\.(png|jpe?g|gif|svg|ico)$/,
+        type: 'assets/images',
         use: [
           {
             loader: "file-loader",
