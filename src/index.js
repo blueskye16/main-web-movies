@@ -37,7 +37,11 @@ class WebBar extends HTMLElement {
       <style>
       :host {
         display: flex;
-        background-color: #222831;
+        background: rgb(2,0,36);
+        background: linear-gradient(158deg, 
+          rgba(2,0,36,1) 0%, 
+          rgba(63,9,121,1) 40%, 
+          rgba(34,117,130,1) 100%);
         padding: 2px;
         margin: 0px;
         color: white;
@@ -47,9 +51,12 @@ class WebBar extends HTMLElement {
         padding-left: 25px;
         font-size: 28px;
       }
+      .logo {
+        widht: 200px;
+      }
       </style>
       
-      <h1>Explore</h1>
+      <h1>Explore TMDB Movies</h1>
     `;
   }
 }
