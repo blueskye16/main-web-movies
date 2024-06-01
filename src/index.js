@@ -1,5 +1,6 @@
-// import 'regenerator-runtime';
-import "./style/style.css";
+// Import our custom CSS
+import './style/style.css'
+
 import $ from "jquery";
 import moment from "moment";
 const api_key = "api_key=623353059db48f17ef551c106c4c2a4c";
